@@ -19,5 +19,5 @@ public class Constants {
 	public static final String LOG_PATH =PATH_SDCARD+ "/sogrey_tencent/log/";
 	
 	/**LOGÃüÃû¹æÔò*/
-	public static final String LOG_NAME ="yyyy-MM-dd_HH:mm:ss";
+	public static final String LOG_NAME ="yyyy-MM-dd_HH-mm-ss";
 }
