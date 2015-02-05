@@ -7,6 +7,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 /**
@@ -32,5 +33,7 @@ public class MainActivity extends Activity {
 		ImageView iv  = new ImageView(this);
 		iv.setImageResource(R.drawable.ic_launcher);
 DialogUtil.MyToast(this, "Ð»Ð»", Gravity.CENTER, Toast.LENGTH_LONG, null);
+TextView tv = null;
+tv.setText("³ö´íÁË");
 	}
 }
